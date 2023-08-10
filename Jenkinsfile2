@@ -1,6 +1,7 @@
 node {
     stage('Compile') {
-        sh 'echo hello'
+        sh 'ls -l'
+        sh 'javac HelloWorld.java'
     }
     
     stage('Run') {
