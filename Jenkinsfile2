@@ -1,0 +1,9 @@
+node {
+    stage('Compile') {
+        sh 'javac HelloWorld.java'
+    }
+    
+    stage('Run') {
+        sh 'java HelloWorld'
+    }
+}
