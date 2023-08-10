@@ -1,4 +1,7 @@
 node {
+    stage('Checkout') {
+        checkout scm
+    }
     stage('Compile') {
         sh 'ls -l'
         sh 'javac HelloWorld.java'
