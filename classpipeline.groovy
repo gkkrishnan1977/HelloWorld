@@ -1,5 +1,5 @@
 class MyPipeline {
-    def runPipeline() {
+    def run() {
         node {
             stage('Checkout') {
                 checkout scm
@@ -14,4 +14,4 @@ class MyPipeline {
     }
 }
 
-new MyPipeline().runPipeline()
+new MyPipeline().run()
