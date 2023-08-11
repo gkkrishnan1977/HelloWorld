@@ -1,3 +1,4 @@
+// Define a class for the pipeline
 class MyPipeline {
     def run() {
         node {
@@ -14,4 +15,5 @@ class MyPipeline {
     }
 }
 
+// Create an instance of the class and run the pipeline
 new MyPipeline().run()
